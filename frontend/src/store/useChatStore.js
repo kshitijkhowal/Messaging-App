@@ -6,7 +6,7 @@ export const useChatStore=create((set)=>({
     messages:[],
     users:[],
     selectedUser:null,
-    isLoading:false,
+    isUsersLoading:false,
     isMessagesLoading:false,
 
     getUsers:async()=>{
@@ -35,7 +35,7 @@ export const useChatStore=create((set)=>({
 
 
     //optimise this later
-    setSelectedUser:(selectedUser)=>({
+    setSelectedUser:(selectedUser)=>set({
         selectedUser
     })
     
