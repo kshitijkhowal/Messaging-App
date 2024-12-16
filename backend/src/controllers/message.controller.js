@@ -39,7 +39,7 @@ export const sendMessage=async(req,res)=>{
     try {
         const {text,image}=req.body;
         const {id:recieverId}=req.params;
-        const myId=reqq.user._id;
+        const myId=req.user._id;
 
         let imageUrl;
 
@@ -49,7 +49,7 @@ export const sendMessage=async(req,res)=>{
         }
 
         const newMessage=new Message({
-            senderId:myI,
+            senderId:myId,
             recieverId:recieverId,
             text:text,
             image:imageUrl,
