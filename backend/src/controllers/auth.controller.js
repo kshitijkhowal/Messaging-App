@@ -55,12 +55,12 @@ export const login=async (req,res)=>{
         const user=await User.findOne({email});
 
         if(!user){
-            return res.satus(400).json({message: "Invalid Credentials"});
+            return res.status(400).json({message: "Invalid Credentials"});
         }
         
         const isPassCorrect=await bcrypt.compare(password,user.password);
 
-        if(!isPassCorrect)  return res.satus(400).json({message: "Invalid Credentials"});
+        if(!isPassCorrect)  return res.status(400).json({message: "Invalid Credentials"});
 
         generateToken(user._id,res);
 
