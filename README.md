@@ -54,7 +54,7 @@ npm install
 ### 3. Environment Setup
 Create a `.env` file in the `server` folder and add:
 ```env
-PORT=5000
+PORT=5001
 MONGO_URI=your_mongo_db_connection_string
 JWT_SECRET=your_jwt_secret_key
 ```
@@ -93,4 +93,3 @@ Feel free to **fork** this repository and submit a pull request for any feature 
 
 ### ⭐ **If you like this project, don't forget to give it a star!** ⭐
 
-![Star Repo](https://img.shields.io/github/stars/yourusername/chat-app?style=social)
