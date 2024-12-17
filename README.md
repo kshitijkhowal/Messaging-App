@@ -63,14 +63,14 @@ JWT_SECRET=your_jwt_secret_key
 Run the server and client:
 ```bash
 # Start backend server
-cd server
+cd backend
 npm run dev
 
 # Start frontend client
-cd ../client
-npm start
+cd frontend
+npm run dev
 ```
-Access the app at: `http://localhost:3000`
+Access the app at: `http://localhost:5173`
 
 ---
 
@@ -88,19 +88,6 @@ Access the app at: `http://localhost:3000`
 
 ## 🤝 **Contributing**
 Feel free to **fork** this repository and submit a pull request for any feature suggestions or bug fixes.
-
----
-
-## 📄 **License**
-This project is licensed under the **MIT License**.
-
----
-
-## 💬 **Contact**
-For any queries or feedback:
-- **Email**: your-email@example.com
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [Your Profile](https://github.com/yourusername)
 
 ---
 
