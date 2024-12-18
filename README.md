@@ -1,6 +1,6 @@
 # Chat App
 
-![Project Screenshot](https://via.placeholder.com/800x400.png?text=Chat+App+Preview)
+![Project Screenshot]([https://via.placeholder.com/800x400.png?text=Chat+App+Preview](https://drive.google.com/file/d/1neXqSpM1jt8ELdXkZEKZfXQMLUDeqtE_/view?usp=drive_link))
 
 ## 📜 **Description**
 A fully functional **Real-Time Chat Application** built using the **MERN Stack** with features like real-time messaging, online user status, and secure authentication. The app uses **Socket.io** for real-time communication and state management with **Zustand**.
