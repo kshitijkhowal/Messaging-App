@@ -74,18 +74,6 @@ Access the app at: `http://localhost:5173`
 
 ---
 
-## 📸 **Screenshots**
-### **1. Login Page**
-![Login Screenshot](https://via.placeholder.com/600x300.png?text=Login+Page)
-
-### **2. Chat Interface**
-![Chat Screenshot](https://via.placeholder.com/600x300.png?text=Chat+Interface)
-
-### **3. Real-Time Updates**
-![Real-Time Screenshot](https://via.placeholder.com/600x300.png?text=Real-Time+Updates)
-
----
-
 ## 🤝 **Contributing**
 Feel free to **fork** this repository and submit a pull request for any feature suggestions or bug fixes.
 
